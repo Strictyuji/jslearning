@@ -1,3 +1,9 @@
 alert('歡迎來到沒屁用的網站'); // 彈出訊息
 
-console.log('菜花是白癡');
+let country = "Taiwan";
+let score = 95;
+const PI = 3.14159;
+
+console.log(country);
+console.log(score);
+coneole.log(PI);
