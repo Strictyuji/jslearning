@@ -1,13 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <title>JS 學習</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript 學習</title>
 </head>
 <body>
-  <h1>JavaScript 學習</h1>
+  <h1>註冊</h1>
+  <form id="registerForm">
+    <input type="text" name="username" placeholder="使用者名稱" required>
+    <input type="password" name="password" placeholder="密碼" required>
+    <button type="submit">註冊</button>
+  </form>
 
-  <!-- 把 JS 放在最後 -->
-  <script src="script.js"></script>
+  <h1>登入</h1>
+  <form id="loginForm">
+    <input type="text" name="username" placeholder="使用者名稱" required>
+    <input type="password" name="password" placeholder="密碼" required>
+    <button type="submit">登入</button>
+  </form>
+
+  <div id="result"></div>
+
+  <!-- 載入外部 JS -->
+  <script src="frontend.js"></script>
 </body>
 </html>
